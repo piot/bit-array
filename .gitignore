@@ -16,3 +16,4 @@ CMakeCache.txt
 src/test/Testing/Temporary
 src/test/CTestTestfile.cmake
 src/test/bit_array_test
+src/lib/libbit-array.a
