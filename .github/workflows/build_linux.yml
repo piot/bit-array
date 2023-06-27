@@ -44,4 +44,4 @@ jobs:
         with:
           name: bit-array Linux Library
           path: |
-            src/lib/libbit_array.a
+            src/lib/libbit-array.a
