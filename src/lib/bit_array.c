@@ -72,7 +72,7 @@ void bitArraySet(BitArray* self, size_t index)
     size_t arrayIndex = index / BIT_ARRAY_BITS_IN_ATOM;
     size_t bitIndex = index % BIT_ARRAY_BITS_IN_ATOM;
     if (index >= self->bitCount) {
-        CLOG_ERROR("wrong");
+        CLOG_ERROR("wrong")
     }
 
     BitArrayAtom* p = self->array + arrayIndex;
